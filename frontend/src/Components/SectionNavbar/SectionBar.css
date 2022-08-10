@@ -1,0 +1,57 @@
+.navbar_main_div {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+  background: rgba(17, 19, 28, 0.8);
+}
+.navbar_elements_main {
+  position: relative;
+  width: 1200px;
+  height: 76px;
+}
+.navbar_ul {
+  margin-left: 17rem;
+  display: inline-block;
+  margin-top: 0.9rem;
+  list-style: none;
+  margin-left: 18rem;
+  border-radius: 0.5rem;
+}
+.navbar_list_elements a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.navbar_list_elements a:hover {
+  color: white;
+}
+.navbar_list_elements {
+  background: rgba(95, 95, 167, 0.37);
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+.navbar_list_elements:hover {
+  background: none;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.active-style {
+  background: none;
+}
+.select_sports_btn {
+  display: inline-block;
+  margin-left: 16rem;
+  margin-top: 0.4rem;
+  background-color: rgba(95, 95, 167, 0.37);
+  padding: 0.2rem;
+  border-radius: 5px;
+}

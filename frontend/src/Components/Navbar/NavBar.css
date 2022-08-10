@@ -1,0 +1,47 @@
+.top_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_topBar {
+  display: inline-block;
+  width: 64px;
+  height: 65px;
+  margin-left: 6.5rem;
+  margin-top: 1rem;
+}
+.btn_topBar a {
+  text-decoration: none;
+  padding: 1.5rem;
+}
+.topBar_signIn,
+.topBar_register {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: inline-block;
+  color: #c8c7d8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.topBar_register:hover,
+.topBar_signIn:hover {
+  background-color: #4b6584c6;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.topBar_wallet_btn {
+  padding: 12px 16px;
+  gap: 10px;
+  width: 147px;
+  height: 48px;
+  background: #6966ff;
+  border-radius: 7.29px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}

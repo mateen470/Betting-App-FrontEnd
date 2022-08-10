@@ -1,0 +1,208 @@
+.liveEvents {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 100%;
+}
+.liveEventHeading_main {
+  display: inline-block;
+}
+.liveEventsHeading {
+  display: flex;
+  justify-content: center;
+  height: 16px;
+  padding-top: 3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.event_main {
+  margin-top: 3rem;
+}
+.eventHeading {
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.line {
+  width: 1150px;
+}
+.live_size_matchType_main_div {
+  display: flex;
+  gap: 1rem;
+}
+.live_text_main {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+.liveBox {
+  display: flex;
+  gap: 2rem;
+  width: 65px;
+  height: 22px;
+  background: #ee0202;
+}
+.liveEventChild_main {
+  background-color: rgba(17, 19, 28, 0.8);
+  display: block;
+  border-radius: 1rem;
+  width: 1200px;
+}
+.liveText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.size {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.quarterNumber {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.addition {
+  display: inline-block;
+  margin-left: -60rem;
+  margin-top: 6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #5e5e5e;
+}
+.match_detail_main {
+  display: inline-block;
+  margin-top: -5rem;
+  margin-left: -58rem;
+}
+.blackBox_main {
+  display: flex;
+  margin-top: 2.5rem;
+}
+.team1_main {
+  display: inline-block;
+  margin-top: -5rem;
+}
+.team2_main {
+  display: inline-block;
+  margin-top: -5rem;
+}
+.team1Name_Score {
+  display: flex;
+  justify-content: space-between;
+}
+.team2Name_Score {
+  display: flex;
+  justify-content: space-between;
+}
+.team1Name,
+.team2Name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.score,
+.score2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin-right: 5rem;
+  text-transform: uppercase;
+  color: #e6852c;
+}
+.clubName_Points_blackBox {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 1.5rem;
+}
+.clubStatus {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: -0.5rem;
+  text-transform: uppercase;
+  color: #5fd855;
+}
+.teamInfo,
+.teamInfo2 {
+  background: #000000;
+  mix-blend-mode: normal;
+  border-radius: 19px;
+}
+.tvShow {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.increase {
+  display: inline-block;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.clubName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.clubRating {
+  width: 60px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: #584aff;
+}
+
+.divider {
+  width: 226px;
+  height: 0px;
+  margin-left: -6rem;
+  margin-right: -6rem;
+  border: 2px solid #151824;
+  transform: rotate(90deg);
+}

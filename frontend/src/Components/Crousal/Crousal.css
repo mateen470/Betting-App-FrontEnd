@@ -1,0 +1,28 @@
+.crousal_main_div {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.crousal_main {
+  z-index: 1;
+  width: 1140px;
+  height: 330px;
+  background-color: rgba(95, 95, 167, 0.37);
+  border-radius: 46px;
+  margin-left: 3rem;
+}
+
+.biggest_div_no3 {
+  height: 260px;
+  width: 580px;
+  margin-left: 17rem;
+  padding-top: 1.5rem;
+  border-radius: 40px;
+}
+.containerStyles {
+  width: 580px;
+  height: 260px;
+}

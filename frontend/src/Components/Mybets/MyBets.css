@@ -1,0 +1,87 @@
+.My_Bets_root_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 1200px;
+  margin-left: 4.5rem;
+  border-radius: 20px;
+}
+.bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.Buttons_MyBet_main_div {
+  background-color: rgba(17, 19, 28, 0.8);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.allBetsButton,
+.latestButton,
+.historyButton {
+  padding: 0.8rem;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  position: relative;
+}
+.allBetsButton:hover,
+.latestButton:hover,
+.historyButton:hover {
+  transition: 0.5s ease-in-out;
+  background: #2e2e48;
+  border-radius: 10px;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  text-align: center;
+}
+.row_with_heading th {
+  font-size: 20px;
+  font-weight: bold;
+}
+tr {
+  height: 60px;
+}
+td,
+th {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.first {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.last {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+tbody tr:nth-child(odd) td {
+  --bs-table-striped-bg: black !important;
+  border-style: hidden;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+thead tr:nth-child(1n) th,
+tbody tr:nth-child(even) td {
+  background: rgba(17, 19, 28, 0.8);
+  border-style: hidden;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
