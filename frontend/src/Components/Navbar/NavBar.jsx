@@ -25,18 +25,20 @@ const NavBar = () => {
         <div className="logo_topBar">
           <img src={logo} alt="#" />
         </div>
-        <div className="btn_topBar">
-          <NavLink to={"/"}>
-            <span onClick={togglePopup} className="topBar_signIn">
-              Sign in
-            </span>
-          </NavLink>
-          <NavLink to={"/"}>
-            <span onClick={togglePopup2} className="topBar_register">
-              Register
-            </span>
-          </NavLink>
-          <Btn />
+        <div className="btn_topBar_main">
+          <div className="btn_topBar">
+            <NavLink to={"/"}>
+              <span onClick={togglePopup} className="topBar_signIn">
+                Sign in
+              </span>
+            </NavLink>
+            <NavLink to={"/"}>
+              <span onClick={togglePopup2} className="topBar_register">
+                Register
+              </span>
+            </NavLink>
+            <Btn />
+          </div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: black;
-  width: 1200px;
+  width: 75rem;
   margin-left: 4.5rem;
   border-radius: 20px;
 }
@@ -20,7 +20,7 @@
   align-items: center;
   gap: 2rem;
 }
-.allBetsButton a{
+.allBetsButton a {
   text-decoration: none;
   color: white;
 }
@@ -54,7 +54,7 @@
   font-weight: bold;
 }
 tr {
-  height: 60px;
+  height: 3.75rem;
 }
 td,
 th {
@@ -88,4 +88,12 @@ tbody tr:nth-child(even) td {
   border-style: hidden;
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1024px) {
+  .My_Bets_root_div {
+    width: 58.5rem;
+    margin-left: 4.5rem;
+  }
 }

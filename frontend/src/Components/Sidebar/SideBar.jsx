@@ -19,9 +19,6 @@ import {
 
 const SideBar = () => {
   const [user, setUser] = useState({
-    // name:props.name,
-    // status:props.status,
-    // picture:props.picture,
     name: "User One",
     status: "new user",
     picture: userProfilePicture,

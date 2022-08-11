@@ -3,7 +3,7 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   margin-bottom: 1rem;
-  width: 1200px;
+  width: 75rem;
   margin-left: 4.5rem;
 }
 .lobbyBar_main_div {
@@ -29,14 +29,14 @@
 }
 .hr_lobbyBar {
   color: white;
-  width: 1170px;
+  width: 73.125rem;
   margin-left: 0.7rem;
   margin-top: 0.5rem;
   margin-right: 1.2rem;
 }
 .main {
-  width: 1180px;
-  height: 70px;
+  width: 73.75rem;
+  height: 4.375rem;
   background: black;
   margin-top: 1rem;
   margin-left: -0.5rem;
@@ -44,8 +44,8 @@
   padding-bottom: 1rem;
 }
 .match_status {
-  width: 70px;
-  height: 21px;
+  width: 4.375rem;
+  height: 1.313rem;
 }
 
 .match_status p {
@@ -64,24 +64,24 @@
   margin-top: -0.5rem;
 }
 .box1 {
-  width: 108px;
-  height: 48px;
+  width: 6.75rem;
+  height: 3rem;
   background: #11131c;
   mix-blend-mode: normal;
   border-radius: 19px;
   margin-left: 1rem;
 }
 .box2 {
-  width: 108px;
-  height: 48px;
+  width: 6.75rem;
+  height: 3rem;
   background: #11131c;
   mix-blend-mode: normal;
   border-radius: 19px;
   margin-left: 1rem;
 }
 .box3 {
-  width: 108px;
-  height: 48px;
+  width: 6.75rem;
+  height: 3rem;
   background: #11131c;
   mix-blend-mode: normal;
   border-radius: 19px;
@@ -146,8 +146,8 @@
 }
 .text1 {
   display: inline-block;
-  width: 89px;
-  height: 16px;
+  width: 5.563rem;
+  height: 1rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -162,8 +162,8 @@
 .text2 {
   display: inline-block;
   margin-left: 2rem;
-  width: 39px;
-  height: 29px;
+  width: 2.438rem;
+  height: 1.813rem;
   font-family: "Poppins";
   font-weight: bold;
   font-size: 16px;
@@ -176,9 +176,9 @@
 
 .text3 {
   display: inline-block;
-  width: 61px;
+  width: 3.813rem;
   margin-left: 2rem;
-  height: 16px;
+  height: 1rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -194,4 +194,29 @@
   font-size: 35px;
   margin-top: -0.8rem;
   margin-left: 10rem;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1024px) {
+  .main_lobbyBar {
+    width: 59rem;
+  }
+  .hr_lobbyBar {
+    width: 58rem;
+  }
+  .main {
+    width: 58rem;
+  }
+  .box_div {
+    margin-left: 2rem;
+  }
+  .text_div {
+    margin-left: 32.5rem;
+  }
+  .downArrow_lobby {
+    color: grey;
+    font-size: 35px;
+    margin-top: -0.8rem;
+    margin-left: 5rem;
+  }
 }
