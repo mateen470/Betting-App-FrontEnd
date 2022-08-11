@@ -1,5 +1,4 @@
 import React from "react";
-// import "./StartSoon.css";
 import StartSoonChild from "./StartingSoonChild";
 const StartingSoon = () => {
   const [startSoonEvent, setStartSoonEvent] = React.useState([
@@ -47,11 +46,11 @@ const StartingSoon = () => {
   return (
     <div className="liveEvents">
       <div className="liveEventHeading_main">
-        <p className="liveEventsHeading">LIVE EVENTS</p>
+        <p className="liveEventsHeading">STARTING SOON</p>
       </div>
       {startSoonEvent.map((startSoon, index) => (
         <div key={index} className="event">
-          <div className="eventHeading_main">
+          <div className="eventHeading_main" style={{ marginTop: "1.8rem" }}>
             <p className="eventHeading">{startSoon.title}</p>
           </div>
           <hr className="line" />

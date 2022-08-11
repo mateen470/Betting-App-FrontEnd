@@ -41,18 +41,16 @@ export default function Btn() {
   `;
   const Btn1 = styled.div`
     display: inline-block;
-    border: 3px solid gray;
-
+    background: rgba(64, 64, 64, 0.36);
+    border: 1px solid rgba(216, 216, 216, 0.68);
+    border-radius: 4px;
     color: white;
     gap: 10px;
     width: auto;
     height: 48px;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     line-height: 24px;
-    //cursor: pointer;
-    //transition: all 0.2s ease;
     position: relative;
   `;
 
@@ -67,7 +65,6 @@ export default function Btn() {
     color: black;
     float: left;
     font-family: Poppins;
-    font-size: 15px;
   `;
 
   const [currentAccount, setCurrentAccount] = useState(null);
@@ -121,9 +118,23 @@ export default function Btn() {
         <Leftdiv>
           {/* <img src="https://i.postimg.cc/YS05SdwQ/Ethereum.png" /> */}
           <div style={{ float: "left", color: "white" }}>
-            <p style={{ marginTop: "25%" }}>0.011</p>
+            <p
+              style={{
+                marginTop: "0.7rem",
+                fontSize: "17px",
+                fontWeight: "600",
+              }}
+            >
+              0.011
+            </p>
           </div>
-          <div style={{ float: "right" }}>
+          <div
+            style={{
+              marginTop: "0.15rem",
+              marginLeft: "2.2rem",
+              marginRight: "0.5rem",
+            }}
+          >
             <Dropdown />
           </div>
         </Leftdiv>
@@ -131,8 +142,9 @@ export default function Btn() {
           <img
             style={{
               backgroundColor: "#6966FF",
-              marginTop: "20%",
+              marginTop: "0.3rem",
               borderRadius: "5px",
+              padding: "0.2rem",
             }}
             src="https://i.postimg.cc/X7x1y9LL/Coin-Wallet.png"
           />

@@ -51,10 +51,12 @@
   width: 65px;
   height: 22px;
   background: #ee0202;
+  border-radius: 0.1rem;
 }
 .liveEventChild_main {
   background-color: rgba(17, 19, 28, 0.8);
   display: block;
+  margin-top: 0.2rem;
   border-radius: 1rem;
   width: 1200px;
   height: 200px;
@@ -78,6 +80,8 @@
 }
 .quarterNumber {
   font-family: "Poppins";
+  display: inline-block;
+  margin-left: -3.5rem;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -89,7 +93,7 @@
   display: inline-block;
   position: absolute;
   margin-top: 5rem;
-  margin-left: -10rem;
+  margin-left: -8rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -113,11 +117,11 @@
 }
 .team1Name_Score {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 .team2Name_Score {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 .team1Name,
 .team2Name {
@@ -151,6 +155,7 @@
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
+  padding-bottom: 0.5rem;
   color: #5fd855;
 }
 .teamInfo,
@@ -198,10 +203,26 @@
 }
 
 .divider {
-  width: 226px;
+  width: 100px;
   height: 0px;
-  margin-left: -6rem;
-  margin-right: -6rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  display: inline-block;
   border: 2px solid #151824;
   transform: rotate(90deg);
+}
+.StartSoonTime_box {
+  background-color: #5e5e5e;
+  width: 220px;
+  height: 22px;
+  border-radius: 0.1rem;
+}
+
+.startsoonTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startSoonTime_para {
+  font-family: "Poppins";
 }

@@ -17,6 +17,14 @@ import soccerBall from "./assets/soccerBall.png";
 import { run } from "../Scripts/game";
 import "./SectionBar.css";
 const SectionNavBar = () => {
+  let activeStyle = {
+    background: "rgba(17, 19, 28, 0.8)",
+    padding: "0.7rem",
+  };
+  let inActiveStyle = {
+    background: "rgba(95, 95, 167, 0.37)",
+    padding: "0.7rem",
+  };
   return (
     <div>
       <div className="navbar_main_div">
@@ -24,18 +32,19 @@ const SectionNavBar = () => {
           <ul className="navbar_ul">
             <li className="navbar_list_elements">
               <NavLink
-                className={(navData) =>
-                  navData.isActive ? "active-style" : "none"
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inActiveStyle
                 }
                 to={"/"}
+                className="lobby_link"
               >
                 LOBBY
               </NavLink>
             </li>
             <li className="navbar_list_elements">
               <NavLink
-                className={(navData) =>
-                  navData.isActive ? "active-style" : "none"
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inActiveStyle
                 }
                 to={"/MyBets"}
               >
@@ -44,30 +53,31 @@ const SectionNavBar = () => {
             </li>
             <li className="navbar_list_elements">
               <NavLink
-                className={(navData) =>
-                  navData.isActive ? "active-style" : "none"
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inActiveStyle
                 }
                 to={"/LiveEvents"}
               >
                 LIVE EVENTS
               </NavLink>
             </li>
-            <li className="navbar_list_elements">
+            {/* <li className="navbar_list_elements">
               <NavLink
-                className={(navData) =>
-                  navData.isActive ? "active-style" : "none"
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inActiveStyle
                 }
                 to={""}
               >
                 FAVOURITES
               </NavLink>
-            </li>
+            </li> */}
             <li className="navbar_list_elements">
               <NavLink
-                className={(navData) =>
-                  navData.isActive ? "active-style" : "none"
+                style={({ isActive }) =>
+                  isActive ? activeStyle : inActiveStyle
                 }
                 to={"/StartingSoon"}
+                className="startSoon_link"
               >
                 STARTING SOON
               </NavLink>

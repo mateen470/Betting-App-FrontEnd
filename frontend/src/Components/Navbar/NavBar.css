@@ -10,9 +10,14 @@
   margin-left: 6.5rem;
   margin-top: 1rem;
 }
+.btn_topBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn_topBar a {
   text-decoration: none;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .topBar_signIn,
 .topBar_register {
@@ -30,18 +35,4 @@
   background-color: #4b6584c6;
   padding: 0.5rem;
   border-radius: 5px;
-}
-.topBar_wallet_btn {
-  padding: 12px 16px;
-  gap: 10px;
-  width: 147px;
-  height: 48px;
-  background: #6966ff;
-  border-radius: 7.29px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
 }

@@ -20,6 +20,10 @@
   align-items: center;
   gap: 2rem;
 }
+.allBetsButton a{
+  text-decoration: none;
+  color: white;
+}
 .allBetsButton,
 .latestButton,
 .historyButton {

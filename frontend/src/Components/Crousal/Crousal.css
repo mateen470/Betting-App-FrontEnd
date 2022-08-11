@@ -8,21 +8,38 @@
 }
 .crousal_main {
   z-index: 1;
-  width: 1140px;
-  height: 330px;
+  width: 71.25rem;
+  height: 20.625rem;
   background-color: rgba(95, 95, 167, 0.37);
   border-radius: 46px;
   margin-left: 3rem;
 }
 
 .biggest_div_no3 {
-  height: 260px;
-  width: 580px;
+  height: 16.25rem;
+  width: 36.25rem;
   margin-left: 17rem;
   padding-top: 1.5rem;
   border-radius: 40px;
 }
 .containerStyles {
-  width: 580px;
-  height: 260px;
+  width: 36.25rem;
+  height: 16.25rem;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1024px) {
+  .crousal_main_div {
+    margin-left: 1.5rem;
+  }
+  .crousal_main {
+    width: 58rem;
+    height: 20rem;
+  }
+  .biggest_div_no3 {
+    height: 15rem;
+    width: 34.25rem;
+    margin-left: 11rem;
+    padding-top: 1rem;
+  }
 }

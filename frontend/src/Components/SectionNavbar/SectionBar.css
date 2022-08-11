@@ -28,24 +28,18 @@
   color: white;
 }
 .navbar_list_elements {
-  background: rgba(95, 95, 167, 0.37);
   display: inline-block;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  padding: 0.7rem;
-  border-radius: 5px;
 }
 .navbar_list_elements:hover {
   background: none;
   border-radius: 0.5rem;
   transition: 0.5s ease-in-out;
   cursor: pointer;
-}
-.active-style {
-  background: none;
 }
 .select_sports_btn {
   display: inline-block;
@@ -54,4 +48,12 @@
   background-color: rgba(95, 95, 167, 0.37);
   padding: 0.2rem;
   border-radius: 5px;
+}
+.lobby_link {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.startSoon_link {
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }

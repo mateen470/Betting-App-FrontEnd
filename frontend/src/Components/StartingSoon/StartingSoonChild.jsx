@@ -1,13 +1,12 @@
 import React from "react";
-// import "./StartSoon.css";
 const StartingSoonChild = ({ startSoon }) => {
   return (
     <div className="liveEventChild-root_div">
       {startSoon.map((data, index) => (
         <div className="liveEventChild_main" key={index}>
-          <div className="liveBox">
+          <div className="StartSoonTime_box">
             <div className=" startsoonTime">
-              STARTING SOON IN {data.time} MIN
+              <p className="startSoonTime_para">STARTING SOON IN {data.time} MIN</p>
             </div>
           </div>
           <p className="addition">+12</p>
@@ -29,8 +28,8 @@ const StartingSoonChild = ({ startSoon }) => {
 
               <img
                 className="tvShow"
-                src="https://img.icons8.com/ios-glyphs/30/FFFFFF/tv-show.png"
-                alt="tvShowLogo"
+                src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
+                alt="increaseLogo"
               />
               <hr className="divider" />
               <img
