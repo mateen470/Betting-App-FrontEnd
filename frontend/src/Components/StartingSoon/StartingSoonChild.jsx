@@ -1,31 +1,58 @@
 import React from "react";
-const StartingSoonChild = ({ startSoon }) => {
+import "./StartSoon.css";
+const StartingSoonChild = ({ startSoon, title }) => {
   return (
     <div className="liveEventChild-root_div">
       {startSoon.map((data, index) => (
-        <div className="liveEventChild_main" key={index}>
+        <div className="liveEventChild_main_startSoon" key={index}>
+          {/* <hr className="startingLine" />
+          <div className="startSoonBox">
+            <div className="startSoonText">About To Start</div>
+            <img
+              className="tvShow1"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/tv-show.png"
+              alt="tvShowLogo"
+            />
+
+            <img
+              className="increase1"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
+              alt="increaseLogo"
+            />
+          </div>
+          <div className="TeamNames">
+            {data.teamName1} - {data.teamName12}
+          </div>
+          <div className="teamTitle">{title}</div> */}
           <div className="StartSoonTime_box">
             <div className=" startsoonTime">
-              <p className="startSoonTime_para">STARTING SOON IN {data.time} MIN</p>
+              <p className="startSoonTime_para">
+                STARTING SOON IN {data.time} MIN
+              </p>
             </div>
           </div>
-          <p className="addition">+12</p>
-          <div className="match_detail_main">
-            <div className="blackBox_main">
-              <div className="team1_main">
-                <div className="team1Name_Score">
-                  <p className="team1Name">{data.teamName1}</p>
-                  <p className="score">{data.team1score}</p>
+          <p className="addition_startSoon">+12</p>
+          <div className="match_detail_main_startSoon">
+            <div className="blackBox_main_startSoon">
+              <div className="team1_main_startSoon">
+                <div className="team1Name_Score_startSoon">
+                  <p className="team1Name_startSoon">{data.teamName1}</p>
+                  <p className="score_startSoon">{data.team1score}</p>
                 </div>
-                <div className="teamInfo">
-                  <div className="clubName_Points_blackBox">
-                    <p className="clubName">{data.clubeName1}</p>
-                    <p className="clubRating">{data.clubRating1}</p>
+                <div className="teamInfo_startSoon">
+                  <div className="clubName_Points_blackBox_startSoon">
+                    <p className="clubName_startSoon">{data.clubeName1}</p>
+                    <p className="clubRating_startSoon">{data.clubRating1}</p>
                   </div>
-                  <p className="clubStatus">{data.status}</p>
+                  <p className="clubStatus_startSoon">{data.status}</p>
                 </div>
               </div>
-
+              <div className="draw">
+                <div className="drawBlacBox">
+                  <p className="drawText">DRAW</p>
+                  <p className="drawRating">{data.clubRating1}</p>
+                </div>
+              </div>
               <img
                 className="tvShow"
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
@@ -37,18 +64,18 @@ const StartingSoonChild = ({ startSoon }) => {
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
                 alt="increaseLogo"
               />
-              <div className="team2_main">
-                <div className="team2Name_Score">
-                  <p className="team2Name">{data.teamName12}</p>
-                  <p className="score2">{data.team2score}</p>
+              <div className="team2_main_startSoon">
+                <div className="team2Name_Score_startSoon">
+                  <p className="team2Name_startSoon">{data.teamName12}</p>
+                  <p className="score2_startSoon">{data.team2score}</p>
                 </div>
 
-                <div className="teamInfo2">
-                  <div className="clubName_Points_blackBox">
-                    <p className="clubName">{data.clubeName2}</p>
-                    <p className="clubRating">{data.clubRating2}</p>
+                <div className="teamInfo2_startSoon">
+                  <div className="clubName_Points_blackBox_startSoon">
+                    <p className="clubName_startSoon">{data.clubeName2}</p>
+                    <p className="clubRating_startSoon">{data.clubRating2}</p>
                   </div>
-                  <p className="clubStatus">{data.status}</p>
+                  <p className="clubStatus_startSoon">{data.status}</p>
                 </div>
               </div>
             </div>

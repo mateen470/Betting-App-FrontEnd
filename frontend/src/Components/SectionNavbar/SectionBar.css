@@ -86,3 +86,27 @@
     margin-left: 3rem;
   }
 }
+@media only screen and (max-width: 600px) {
+  .navbar_main_div {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-left: -4rem;
+    background: none;
+  }
+  .navbar_elements_main {
+    width: 25rem;
+    height: 4.75rem;
+  }
+  .select_sports_btn {
+    display: none;
+  }
+  .favourites_link {
+    display: none;
+  }
+  .navbar_ul {
+    margin-left: 2rem;
+  }
+  .navbar_list_elements {
+    font-size: 10px;
+  }
+}

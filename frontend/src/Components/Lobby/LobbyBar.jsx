@@ -1,19 +1,21 @@
 import React, { useState } from "react";
 
-const LobbyBar = ({ match_data }) => {
+const LobbyBar = ({ match_data, leagueName }) => {
   return (
     <div className="lobbyBar_main_div">
       {match_data.map((key) => (
         <div className="main" key={key}>
           <div className="match_status">
-            {/* <p
-              style={{
-                background:
-                  data.statusOfMatch === "live" ? "#ee0202" : "#5E5E5E",
-              }}
-            >
-              {data.statusOfMatch}
-            </p> */}
+            {
+              <p
+                style={{
+                  background:
+                    key.statusOfMatch === "live" ? "#ee0202" : "#5E5E5E",
+                }}
+              >
+                {key.statusOfMatch}
+              </p>
+            }
           </div>
           <div className="box_div">
             <div className="box1">
@@ -37,11 +39,27 @@ const LobbyBar = ({ match_data }) => {
               </p>
             </div>
           </div>
+          <div className="points">
+            <p className="point1">12'</p>
+            <p className="point2">81</p>
+            <p className="point3">81</p>
+          </div>
           <div className="text_div">
             <p className="text1">{key.home_team}</p>
             <p className="text2">? - ?</p>
             <p className="text3">{key.home_team}</p>
             <div className="downArrow_lobby">↓</div>
+          </div>
+          <hr />
+          <div className="leagueName">
+            <p className="leagueNameText">{leagueName}</p>
+            {/* {key.statusOfMatch === "live" ? ( */}
+            <p className="liveText" style={{ background: "red" }}>
+              live
+            </p>
+            {/* ) : (
+              <></>
+            )} */}
           </div>
         </div>
       ))}

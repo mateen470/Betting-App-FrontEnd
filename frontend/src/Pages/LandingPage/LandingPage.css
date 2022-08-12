@@ -4,3 +4,55 @@
   padding: 0;
   overflow-x: hidden;
 }
+.Search {
+  display: none;
+}
+/* RESPONSIVENESS */
+@media (max-width: 37.5rem) {
+  .Crousal_root_div {
+    display: none;
+  }
+  .Search {
+    display: block;
+  }
+  .SearchHeading {
+    width: 14.25rem;
+    height: 4.125rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+    color: #ffffff;
+    margin-left: 0.625rem;
+    text-align: justify;
+  }
+
+  .SearchBar {
+    width: auto;
+    height: 3.125rem;
+    background: rgba(64, 64, 64, 0.36);
+    border: 1px solid rgba(216, 216, 216, 0.68);
+    border-radius: 1.75rem;
+    display: flex;
+    align-items: center;
+    padding: 1.25rem;
+    margin: 0 0.625rem;
+    align-items: center;
+  }
+
+  .SearchBar input {
+    flex: 1;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    padding: 0.625rem;
+    background: rgba(20, 20, 20, 0.36);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #dadada;
+  }
+}

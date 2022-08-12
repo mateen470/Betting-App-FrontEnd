@@ -149,6 +149,7 @@ export default function Btn() {
               padding: "0.2rem",
             }}
             src="https://i.postimg.cc/X7x1y9LL/Coin-Wallet.png"
+            alt="#"
           />
         </Rightdiv>
       </Btn1>

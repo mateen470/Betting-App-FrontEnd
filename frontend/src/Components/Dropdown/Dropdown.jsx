@@ -43,6 +43,7 @@ const techCompanies = [
         width="35px"
         style={{ borderRadius: "50%" }}
         src="https://i.postimg.cc/9XYFrPgz/Bitcoin.png"
+        alt="#"
       />
     ),
     value: 2,
@@ -54,6 +55,7 @@ const techCompanies = [
         width="35px"
         style={{ borderRadius: "50%" }}
         src="https://i.postimg.cc/J4TrQrLL/Cent.png"
+        alt="#"
       />
     ),
     value: 3,
@@ -65,6 +67,7 @@ const techCompanies = [
         width="35px"
         style={{ borderRadius: "50%" }}
         src="https://i.postimg.cc/fyCwpZSY/Average-Price-1.png"
+        alt="#"
       />
     ),
     value: 4,
@@ -76,6 +79,7 @@ const techCompanies = [
         width="35px"
         style={{ borderRadius: "50%" }}
         src="https://i.postimg.cc/YS05SdwQ/Ethereum.png"
+        alt="#"
       />
     ),
     value: 5,
@@ -87,6 +91,7 @@ const techCompanies = [
         width="35px"
         style={{ borderRadius: "50%" }}
         src="https://i.postimg.cc/YS05SdwQ/Ethereum.png"
+        alt="#"
       />
     ),
     value: 6,
@@ -97,7 +102,9 @@ const Dropdown = () => {
   return (
     <Select
       styles={customStyles}
-      placeholder={<img src="https://i.postimg.cc/YS05SdwQ/Ethereum.png" />}
+      placeholder={
+        <img src="https://i.postimg.cc/YS05SdwQ/Ethereum.png" alt="#" />
+      }
       clearable={false}
       options={techCompanies}
     />

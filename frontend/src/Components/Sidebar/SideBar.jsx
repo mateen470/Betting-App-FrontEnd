@@ -8,6 +8,11 @@ import myBetsIcon from "./assets/user_group.png";
 import liveEvents from "./assets/live-events.png";
 import calendarIcon from "./assets/calendar.png";
 import sportListrIcon from "./assets/settings.png";
+// import home from "./assets/home.png";
+// import search from "./assets/search.png";
+// import add from "./assets/add.png";
+// import heart from "./assets/heart.png";
+// import userIcon from "./assets/user.png";
 
 import {
   BrowserRouter as Router,
@@ -99,6 +104,35 @@ const SideBar = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="bottomBar">
+        <NavLink to="#" style={{ padding: "20px" }}>
+          <img
+            src="https://img.icons8.com/windows/32/ffffff/home.png"
+            alt="#"
+          />
+        </NavLink>
+        <NavLink to="#" style={{ padding: "20px" }}>
+          <img
+            src="https://img.icons8.com/pastel-glyph/32/ffffff/search--v1.png"
+            alt="#"
+          />
+        </NavLink>
+        <NavLink to="#" style={{ padding: "20px" }}>
+          <img
+            src="https://img.icons8.com/ios/32/ffffff/plus-2-math.png"
+            alt="#"
+          />
+        </NavLink>
+        <NavLink to="#" style={{ padding: "20px" }}>
+          <img
+            src="https://img.icons8.com/material-outlined/32/ffffff/like--v1.png"
+            alt="#"
+          />
+        </NavLink>
+        <NavLink to="#" style={{ padding: "20px" }}>
+          <img src="https://img.icons8.com/small/32/ffffff/user.png" alt="#" />
+        </NavLink>
       </div>
     </div>
   );

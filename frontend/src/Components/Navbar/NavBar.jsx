@@ -37,7 +37,7 @@ const NavBar = () => {
                 Register
               </span>
             </NavLink>
-            <Btn />
+            <Btn  className="connect_wallet_btn"/>
           </div>
         </div>
       </div>

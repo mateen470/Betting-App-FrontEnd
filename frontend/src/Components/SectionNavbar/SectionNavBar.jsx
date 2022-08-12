@@ -61,7 +61,7 @@ const SectionNavBar = () => {
                 LIVE EVENTS
               </NavLink>
             </li>
-            {/* <li className="navbar_list_elements">
+            {/* <li className="navbar_list_elements favourites_link">
               <NavLink
                 style={({ isActive }) =>
                   isActive ? activeStyle : inActiveStyle
