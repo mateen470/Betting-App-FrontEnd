@@ -167,6 +167,12 @@
   mix-blend-mode: normal;
   border-radius: 19px;
 }
+.draw_div_liveEvents {
+  display: none;
+}
+.score_detail_main_div {
+  display: none;
+}
 .tvShow {
   display: inline-block;
   padding-left: 2rem;
@@ -232,6 +238,15 @@
 
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1024px) {
+  .liveEventHeading_main {
+    display: inline-block;
+  }
+  .eventHeading {
+    display: inline-block;
+  }
+  .liveEvents {
+    margin-left: 4rem;
+  }
   .line {
     width: 59rem;
   }
@@ -239,7 +254,7 @@
     width: 59rem;
   }
   .match_detail_main {
-    margin-left: 6rem;
+    margin-left: 6.3rem;
   }
   .quarterNumber {
     display: inline-block;
@@ -252,6 +267,15 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .liveEventHeading_main {
+    display: inline-block;
+  }
+  .eventHeading {
+    display: inline-block;
+  }
+  .liveEvents {
+    margin-left: 4.5rem;
+  }
   .line {
     width: 43rem;
   }
@@ -271,14 +295,14 @@
     margin-left: 1rem;
   }
   .match_detail_main {
-    margin-left: 5.5rem;
+    margin-left: 6rem;
   }
   .team1_main {
-    width: 13rem;
+    width: 12.5rem;
     height: 3rem;
   }
   .team2_main {
-    width: 13rem;
+    width: 12.5rem;
     height: 3rem;
   }
   .team1Name_Score,
@@ -303,8 +327,90 @@
     font-size: 12px;
   }
   .clubRating {
-    width: 2.2rem;
+    width: 2.5rem;
     height: 1.5rem;
     font-size: 16px;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .liveEventChild_main{
+    width: 10rem;
+  }
+  .draw_div_liveEvents {
+    display: inline-block;
+    width: 6.75rem;
+    height: 3rem;
+    background: #11131c;
+    mix-blend-mode: normal;
+    border-radius: 19px;
+    margin-left: 1rem;
+  }
+  .p1_liveEvent {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .p2_liveEvent {
+    display: inline-block;
+    margin-top: -1.2rem;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    color: #584aff;
+  }
+  .score_detail_main_div {
+    display: flex;
+    margin-left: 40rem;
+    margin-top: -2.5rem;
+  }
+  .score_detail_main_div_text1 {
+    display: inline-block;
+    width: 5.563rem;
+    height: 1rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .score_detail_main_div_text2 {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 2.438rem;
+    height: 1.813rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .score_detail_main_div_text3 {
+    display: inline-block;
+    width: 3.813rem;
+    margin-left: 2rem;
+    height: 1rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #ffffff;
+  } */
 }

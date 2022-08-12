@@ -14,6 +14,11 @@ const LiveEventChild = ({ event }) => {
             <p className="size">{key.size}</p>
             <p className="quarterNumber">{key.commence_time}</p>
           </div>
+          <div className="score_detail_main_div">
+            <p className="score_detail_main_div_text1">{key.home_team}</p>
+            <p className="score_detail_main_div_text2">? - ?</p>
+            <p className="score_detail_main_div_text3">{key.away_team}</p>
+          </div>
           <p className="addition">+12</p>
           <div className="match_detail_main">
             <div className="blackBox_main">
@@ -36,7 +41,14 @@ const LiveEventChild = ({ event }) => {
                   <p className="clubStatus">{"OPEN"}</p>
                 </div>
               </div>
-
+              <div className="draw_div_liveEvents">
+                <p className="p1_liveEvent">DRAW</p>
+                <p className="p2_liveEvent">
+                  {key.bookmakers[0].markets[0].outcomes.length > 2
+                    ? key.bookmakers[0].markets[0].outcomes[2].price
+                    : "NaN"}
+                </p>
+              </div>
               <img
                 className="tvShow"
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/tv-show.png"

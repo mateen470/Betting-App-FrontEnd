@@ -41,25 +41,30 @@ const LobbyBar = ({ match_data, leagueName }) => {
           </div>
           <div className="points">
             <p className="point1">12'</p>
-            <p className="point2">81</p>
-            <p className="point3">81</p>
+            <p className="point2">
+              {Math.round(100 / key.bookmakers[0].markets[0].outcomes[0].price)}
+            </p>
+            <p className="point3">
+              {Math.round(100 / key.bookmakers[0].markets[0].outcomes[1].price)}
+            </p>
           </div>
           <div className="text_div">
             <p className="text1">{key.home_team}</p>
             <p className="text2">? - ?</p>
-            <p className="text3">{key.home_team}</p>
+            <p className="text3">{key.away_team}</p>
             <div className="downArrow_lobby">↓</div>
           </div>
           <hr />
+          {/* MOBILE VIEW LIVE BOX */}
           <div className="leagueName">
             <p className="leagueNameText">{leagueName}</p>
-            {/* {key.statusOfMatch === "live" ? ( */}
-            <p className="liveText" style={{ background: "red" }}>
-              live
-            </p>
-            {/* ) : (
+            {key.statusOfMatch === "live" ? (
+              <p className="liveText" style={{ background: "red" }}>
+                LIVE
+              </p>
+            ) : (
               <></>
-            )} */}
+            )}
           </div>
         </div>
       ))}

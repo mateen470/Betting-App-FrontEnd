@@ -106,7 +106,7 @@ const SideBar = () => {
         </div>
       </div>
       <div className="bottomBar">
-        <NavLink to="#" style={{ padding: "20px" }}>
+        <NavLink to="/" style={{ padding: "20px" }}>
           <img
             src="https://img.icons8.com/windows/32/ffffff/home.png"
             alt="#"

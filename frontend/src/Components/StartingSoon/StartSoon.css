@@ -1,4 +1,4 @@
-.liveEvents_startSoon {
+.startingSoonEvents {
   background-color: #000000;
   display: inline-block;
   box-sizing: border-box;
@@ -6,10 +6,10 @@
   height: 100%;
   margin-left: 4rem;
 }
-.liveEventHeading_main_startSoon {
+.startingSoonEventHeading_main {
   display: inline-block;
 }
-.liveEventsHeading_startSoon {
+.startingSoonEventsHeading {
   display: flex;
   justify-content: center;
   height: 16px;
@@ -24,7 +24,7 @@
   color: #ffffff;
 }
 
-.event_startSoon {
+.event_main {
   margin-top: 3rem;
 }
 .eventHeading_startSoon {
@@ -37,26 +37,17 @@
 .line_startSoon {
   width: 71.875rem;
 }
-.live_size_matchType_main_div {
+
+.startSoonBox {
   display: flex;
-  gap: 1rem;
-}
-.live_text_main {
-  display: inline-block;
-  margin-left: 0.8rem;
-}
-.liveBox {
-  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  width: 4.063rem;
-  height: 1.375rem;
-  background: #ee0202;
-  border-radius: 0.1rem;
+  width: fit-content;
 }
-.liveEventChild_main_startSoon {
+.startingSoonEventChild_main {
   background-color: rgba(17, 19, 28, 0.8);
   display: block;
-  margin-top: 0.2rem;
   border-radius: 1rem;
   width: 75rem;
   height: 12.5rem;
@@ -64,14 +55,21 @@
 .draw {
   display: none;
 }
-.liveText {
-  font-family: "Poppins";
+.startSoonText1 {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 0.1rem;
+  letter-spacing: 0.75px;
   text-transform: uppercase;
   color: #ffffff;
+  background: #5e5e5e;
+  padding: 0.2rem;
 }
+
 .size {
   font-family: "Poppins";
   font-style: normal;
@@ -90,11 +88,11 @@
   color: #404040;
 }
 
-.addition_startSoon {
+.addition_StartSoon {
   display: inline-block;
   position: absolute;
   margin-top: 5rem;
-  margin-left: -2rem;
+  margin-left: -8rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -104,7 +102,6 @@
 }
 .match_detail_main_startSoon {
   display: inline-block;
-  margin-left: 11rem;
 }
 .blackBox_main_startSoon {
   display: flex;
@@ -123,11 +120,13 @@
 }
 .team1Name_Score_startSoon {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
 }
 .team2Name_Score_startSoon {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 .team1Name_startSoon,
 .team2Name_startSoon {
@@ -161,23 +160,23 @@
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
-  padding-bottom: 0.5rem;
   color: #5fd855;
+  padding-bottom: 0.5rem;
 }
-.teamInfo_startSoon,
+.teamInfo,
 .teamInfo2_startSoon,
 .draw {
   background: #000000;
   mix-blend-mode: normal;
   border-radius: 19px;
 }
-.tvShow {
+.tvShow_StartSoon {
   display: inline-block;
   padding-left: 2rem;
   padding-bottom: 2rem;
 }
 
-.increase {
+.increase_StartSoon {
   display: inline-block;
   padding-right: 2rem;
   padding-bottom: 2rem;
@@ -218,270 +217,96 @@
   border: 2px solid #151824;
   transform: rotate(90deg);
 }
-.StartSoonTime_box {
-  background-color: #5e5e5e;
-  width: 13.75rem;
-  height: 1.375rem;
-  border-radius: 0.1rem;
-}
-
-.startsoonTime {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.startSoonTime_para {
-  font-family: "Poppins";
-}
-.increase1,
-.tvShow1,
+.increase1_StartSoon,
+.tvShow1_StartSoon,
 .startingLine,
 .TeamNames,
-.teamTitle {
+.teamTitle,
+.startSoonText {
   display: none;
 }
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1024px) {
-  .line {
+  .startingSoonEvents {
+    margin-left: 4rem;
+  }
+  .line_startSoon {
     width: 59rem;
   }
-  .liveEventChild_main {
+  .startingSoonEventChild_main {
     width: 59rem;
   }
-  .match_detail_main {
-    margin-left: 6rem;
+  .match_detail_main_startSoon {
+    margin-left: 6.3rem;
   }
-  .quarterNumber {
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: smaller;
-    margin-left: -8rem;
-  }
-  .addition {
+  .addition_StartSoon {
     margin-left: 2rem;
   }
 }
-/* @media all and (max-width: 959px) and (orientation: landscape) {
-  .startingLine,
-  .TeamNames {
-    display: block;
-    width: auto;
-  }
-  .TeamNames {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1rem;
-    text-align: left;
-    letter-spacing: 0.75px;
-    text-transform: uppercase;
-    margin-top: 2rem;
-    color: #ffffff;
-  }
-  .teamTitle {
-    display: block;
-    width: 11.188rem;
-    height: 1rem;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.75rem;
-    line-height: 1rem;
-    text-align: center;
-    letter-spacing: 0.75px;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-top: 1rem;
-  }
-  .increase,
-  .tvShow,
-  .score,
-  .addition,
-  .divider,
-  .score2,
-  .team1_main .clubStatus,
-  .team2_main .clubStatus,
-  .eventHeading,
-  .line,
-  .team1Name_Score,
-  .team2Name_Score {
-    display: none;
-  }
-  .liveEventChild_main {
-    height: 14.8125rem;
-    min-width: 100%;
-    width: auto;
-    margin: 0.5rem;
-    background: rgba(17, 19, 28, 0.8);
-    border: 0.0625rem solid #d8d8d8;
-    border-radius: 0.5rem;
-  }
-  .team1_main,
-  .team2_main,
-  .draw {
-    margin: 0%;
-    width: min-content;
-    height: 4.625rem;
-  }
-  .draw {
-    padding: 0.625rem;
-    margin: 0 0.5rem;
-    height: 4.625rem;
-    width: min-content;
-  }
-
-  .blackBox_main,
-  .match_detail_main {
-    width: min-content;
-    height: 0%;
-  }
-
-  .team1_main .clubName,
-  .team2_main .clubName {
-    width: 4.725rem;
-    height: auto;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.875rem;
-    text-align: center;
-    letter-spacing: 0.75px;
-    text-transform: uppercase;
-    text-overflow: inherit;
-    color: #ffffff;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  .liveEvents {
-    margin: 0%;
-    width: 100%;
-    background: none;
-  }
-  .clubName_Points_blackBox,
-  .draw {
-    width: max-content;
-    display: inline;
-    height: 4.625rem;
-  }
-  .startSoonBox {
-    display: flex;
-    width: 100%;
-  }
-  .teamInfo,
-  .teamInfo2 {
-    height: 4.625rem;
-    width: max-content;
-    padding: 0.625rem;
-    margin: auto;
-  }
-  .tvShow1 {
-    display: block;
-    padding: 0%;
-    width: fit-content;
-    height: fit-content;
-    margin-left: auto;
-  }
-  .increase1 {
-    display: block;
-    padding: 0%;
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .drawText {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    text-align: center;
-    letter-spacing: 0.75px;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
-  .drawRating {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    text-align: center;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-    color: #584aff;
-  }
-} */
-
 @media only screen and (max-width: 768px) {
-  .line {
+  .eventHeading_startSoon {
+    display: inline-block;
+  }
+  .startingSoonEvents {
+    margin-left: 4rem;
+  }
+  .line_startSoon {
     width: 43rem;
   }
-  .liveEventChild_main {
+  .startingSoonEventChild_main {
     width: 43rem;
   }
-  .match_detail_main {
+  .addition_StartSoon {
+    margin-left: 0rem;
+  }
+  .match_detail_main_startSoon {
     margin-left: 3rem;
   }
-  .quarterNumber {
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: smaller;
-    margin-left: -8rem;
-  }
-  .addition {
-    margin-left: 1rem;
-  }
-  .match_detail_main {
-    margin-left: 5.5rem;
-  }
-  .team1_main {
-    width: 13rem;
+  .team1_main_startSoon {
+    width: 12.5rem;
     height: 3rem;
   }
-  .team2_main {
-    width: 13rem;
+  .team2_main_startSoon {
+    width: 12.5rem;
     height: 3rem;
   }
-  .team1Name_Score,
-  .team2Name_Score {
+  .team1Name_Score_startSoon,
+  .team2Name_Score_startSoon {
     gap: 3rem;
   }
 
-  .team1Name,
-  .team2Name {
+  .team1Name_startSoon,
+  .team2Name_startSoon {
     font-size: 12px;
     margin-left: 1rem;
   }
-  .score,
-  .score2 {
+  .score_startSoon,
+  .score2_startSoon {
     font-size: 15px;
     margin-right: 0.1rem;
   }
-  .clubName_Points_blackBox {
+  .clubName_Points_blackBox_startSoon {
     gap: 0.5rem;
   }
-  .clubName {
+  .clubName_startSoon {
     font-size: 12px;
   }
-  .clubRating {
-    width: 2.2rem;
+  .clubRating_startSoon {
+    width: 2.5rem;
     height: 1.5rem;
     font-size: 16px;
   }
 }
-/* @media (max-width: 600px) {
+@media (max-width: 600px),
+  all and (max-width: 959px) and (orientation: landscape) {
   .startingLine,
   .TeamNames {
     display: block;
     width: auto;
   }
   .TeamNames {
+    display: flex;
+    margin: 1rem;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -511,53 +336,69 @@
     overflow: hidden;
     margin-top: 1rem;
   }
-  .increase,
-  .tvShow,
-  .score,
-  .addition,
+  .startSoonText1,
+  .increase_StartSoon,
+  .tvShow_StartSoon,
+  .score_startSoon,
+  .addition_StartSoon,
   .divider,
-  .score2,
-  .team1_main .clubStatus,
-  .team2_main .clubStatus,
+  .score2_startSoon,
+  .team1_main_startSoon .clubStatus_startSoon,
+  .team2_main_startSoon .clubStatus_startSoon,
   .eventHeading,
   .line,
-  .team1Name_Score,
-  .team2Name_Score {
+  .team1Name_Score_startSoon,
+  .team2Name_Score_startSoon {
     display: none;
   }
-  .liveEventChild_main {
+  .startSoonText {
+    display: block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1rem;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #d8d8d8;
+  }
+  .startingSoonEventChild_main {
     height: 14.8125rem;
     min-width: 100%;
-    width: auto;
+    width: 100%;
     margin: 0.5rem;
     overflow: auto;
     background: rgba(17, 19, 28, 0.8);
     border: 0.0625rem solid #d8d8d8;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 0.6rem;
   }
-  .team1_main,
-  .team2_main,
-  .draw {
+  .team1_main_startSoon,
+  .team2_main_startSoon,
+  .drawBlacBox {
     margin: 0%;
-    width: auto;
+    width: 7rem;
     height: 4.625rem;
   }
   .draw {
     padding: 0.625rem;
-    margin: 0 0.5rem;
+    margin: auto;
     height: 4.625rem;
     width: auto;
   }
 
-  .blackBox_main,
-  .match_detail_main {
-    width: auto;
+  .blackBox_main_startSoon,
+  .match_detail_main_startSoon {
+    width: 100%;
     height: 0%;
+    margin-left: 0rem;
   }
 
-  .team1_main .clubName,
-  .team2_main .clubName {
-    width: 4.725rem;
+  .team1_main_startSoon .clubName_startSoon,
+  .team2_main_startSoon .clubName_startSoon {
     height: auto;
     font-family: "Poppins";
     font-style: normal;
@@ -573,12 +414,12 @@
     overflow: hidden;
   }
 
-  .liveEvents {
+  .startingSoonEvents {
     margin: 0%;
-    width: auto;
+    width: 100%;
     background: none;
   }
-  .clubName_Points_blackBox,
+  .clubName_Points_blackBox_startSoon,
   .draw {
     width: auto;
     display: inline;
@@ -589,20 +430,20 @@
     width: 100%;
   }
   .teamInfo,
-  .teamInfo2 {
+  .teamInfo2_startSoon {
     height: 4.625rem;
     width: auto;
     padding: 0.625rem;
     margin: auto;
   }
-  .tvShow1 {
+  .tvShow1_StartSoon {
     display: block;
     padding: 0%;
     width: fit-content;
     height: fit-content;
     margin-left: auto;
   }
-  .increase1 {
+  .increase1_StartSoon {
     display: block;
     padding: 0%;
     width: fit-content;
@@ -625,10 +466,19 @@
     font-style: normal;
     font-weight: 700;
     font-size: 0.875rem;
-    line-height: 1rem;
-    text-align: center;
-    letter-spacing: 1.75px;
     text-transform: uppercase;
     color: #584aff;
   }
-} */
+  .clubRating_startSoon {
+    margin-left: 1rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #584aff;
+  }
+  .startingSoonEventChild-root_div {
+    margin-right: 1.2rem;
+  }
+}

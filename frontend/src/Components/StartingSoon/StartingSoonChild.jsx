@@ -2,17 +2,34 @@ import React from "react";
 import "./StartSoon.css";
 const StartingSoonChild = ({ startSoon, title }) => {
   return (
-    <div className="liveEventChild-root_div">
+    <div className="startingSoonEventChild-root_div">
       {startSoon.map((data, index) => (
-        <div className="liveEventChild_main_startSoon" key={index}>
-          <div className="StartSoonTime_box">
-            <div className=" startsoonTime">
-              <p className="startSoonTime_para">
-                STARTING SOON IN {data.time} MIN
-              </p>
+        <div className="startingSoonEventChild_main" key={index}>
+          <hr className="startingLine" />
+          <div className="startSoonBox">
+            <div className="startSoonText1">
+              STARTING SOON IN {data.time} MIN
             </div>
+            <div className="startSoonText">About To Start</div>
+            <img
+              className="tvShow1_StartSoon"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/tv-show.png"
+              alt="tvShowLogo"
+            />
+
+            <img
+              className="increase1_StartSoon"
+              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
+              alt="increaseLogo"
+            />
           </div>
-          <p className="addition_startSoon">+12</p>
+          <div className="TeamNames">
+            {data.teamName1} - {data.teamName12}
+          </div>
+          <div className="teamTitle" style={{ marginBottom: "1rem" }}>
+            {title}
+          </div>
+          <p className="addition_StartSoon">+12</p>
           <div className="match_detail_main_startSoon">
             <div className="blackBox_main_startSoon">
               <div className="team1_main_startSoon">
@@ -20,7 +37,7 @@ const StartingSoonChild = ({ startSoon, title }) => {
                   <p className="team1Name_startSoon">{data.teamName1}</p>
                   <p className="score_startSoon">{data.team1score}</p>
                 </div>
-                <div className="teamInfo_startSoon">
+                <div className="teamInfo">
                   <div className="clubName_Points_blackBox_startSoon">
                     <p className="clubName_startSoon">{data.clubeName1}</p>
                     <p className="clubRating_startSoon">{data.clubRating1}</p>
@@ -35,13 +52,13 @@ const StartingSoonChild = ({ startSoon, title }) => {
                 </div>
               </div>
               <img
-                className="tvShow"
+                className="tvShow_StartSoon"
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
-                alt="increaseLogo"
+                alt="tvShowLogo"
               />
               <hr className="divider" />
               <img
-                className="increase"
+                className="increase_StartSoon"
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
                 alt="increaseLogo"
               />
