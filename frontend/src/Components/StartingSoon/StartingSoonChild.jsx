@@ -5,25 +5,6 @@ const StartingSoonChild = ({ startSoon, title }) => {
     <div className="liveEventChild-root_div">
       {startSoon.map((data, index) => (
         <div className="liveEventChild_main_startSoon" key={index}>
-          {/* <hr className="startingLine" />
-          <div className="startSoonBox">
-            <div className="startSoonText">About To Start</div>
-            <img
-              className="tvShow1"
-              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/tv-show.png"
-              alt="tvShowLogo"
-            />
-
-            <img
-              className="increase1"
-              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
-              alt="increaseLogo"
-            />
-          </div>
-          <div className="TeamNames">
-            {data.teamName1} - {data.teamName12}
-          </div>
-          <div className="teamTitle">{title}</div> */}
           <div className="StartSoonTime_box">
             <div className=" startsoonTime">
               <p className="startSoonTime_para">
