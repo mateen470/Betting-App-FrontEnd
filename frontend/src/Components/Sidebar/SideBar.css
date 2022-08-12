@@ -139,7 +139,7 @@
 }
 @media only screen and (max-width: 768px) {
   .SideBar {
-    height: 850px;
+    height: 900px;
   }
   .burgerIcon {
     margin-top: -40rem;

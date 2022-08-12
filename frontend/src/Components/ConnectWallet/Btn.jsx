@@ -6,6 +6,9 @@ import Dropdown from "../Dropdown/Dropdown";
 export default function Btn() {
   const Btn = styled.button`
     margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 12px 16px;
     gap: 10px;
     width: 147px;
@@ -35,7 +38,6 @@ export default function Btn() {
     }
 
     &:hover::after {
-      transform: translate(-50%, -50%) scale(1);
       padding: 0.3rem;
     }
   `;

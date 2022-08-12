@@ -251,3 +251,60 @@
     margin-left: 2rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .line {
+    width: 43rem;
+  }
+  .liveEventChild_main {
+    width: 43rem;
+  }
+  .match_detail_main {
+    margin-left: 3rem;
+  }
+  .quarterNumber {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: smaller;
+    margin-left: -8rem;
+  }
+  .addition {
+    margin-left: 1rem;
+  }
+  .match_detail_main {
+    margin-left: 5.5rem;
+  }
+  .team1_main {
+    width: 13rem;
+    height: 3rem;
+  }
+  .team2_main {
+    width: 13rem;
+    height: 3rem;
+  }
+  .team1Name_Score,
+  .team2Name_Score {
+    gap: 3rem;
+  }
+
+  .team1Name,
+  .team2Name {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .score,
+  .score2 {
+    font-size: 15px;
+    margin-right: 0.1rem;
+  }
+  .clubName_Points_blackBox {
+    gap: 0.5rem;
+  }
+  .clubName {
+    font-size: 12px;
+  }
+  .clubRating {
+    width: 2.2rem;
+    height: 1.5rem;
+    font-size: 16px;
+  }
+}

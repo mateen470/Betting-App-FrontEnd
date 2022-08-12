@@ -220,3 +220,41 @@
     margin-left: 5rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main_lobbyBar {
+    width: 43rem;
+  }
+  .hr_lobbyBar {
+    width: 41.5rem;
+  }
+  .main {
+    width: 42rem;
+  }
+  .box_div {
+    margin-left: 0rem;
+  }
+  .text_div {
+    margin-left: 24rem;
+  }
+  .downArrow_lobby {
+    color: grey;
+    font-size: 25px;
+    margin-top: -0.8rem;
+    margin-left: 2rem;
+  }
+  .text1 {
+    width: 4rem;
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+  .text2 {
+    margin-left: 2rem;
+    width: 2rem;
+    font-size: 12px;
+  }
+  .text3 {
+    width: 4rem;
+    margin-left: 1rem;
+    font-size: 10px;
+  }
+}

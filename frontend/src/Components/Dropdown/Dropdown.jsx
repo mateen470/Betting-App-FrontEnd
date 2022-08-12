@@ -10,11 +10,15 @@ const customStyles = {
     // none of react-select's styles are passed to <Control />
     backgroundColor: "#212134",
     borderRadius: "2rem",
+    zIndex: "10000000",
+    position: "sticky",
   }),
   option: (base, state) => ({
     ...base,
     backgroundColor: state.isSelected ? "#11131C" : "#212134",
     borderRadius: "2rem",
+    position: "sticky",
+    zIndex: "10000000",
   }),
   indicatorSeparator: (provided, state) => null,
   dropdownIndicator: (provided, state) => null,

@@ -97,3 +97,9 @@ tbody tr:nth-child(even) td {
     margin-left: 4.5rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .My_Bets_root_div {
+    width: 43rem;
+    margin-left: 4.5rem;
+  }
+}

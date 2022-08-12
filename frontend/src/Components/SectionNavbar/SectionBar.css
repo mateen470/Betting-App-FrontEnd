@@ -72,3 +72,17 @@
     margin-left: 10rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .navbar_elements_main {
+    position: relative;
+    width: 43rem;
+    height: 4.75rem;
+  }
+  .navbar_ul {
+    margin-top: 0.9rem;
+    margin-left: 4rem;
+  }
+  .select_sports_btn {
+    margin-left: 3rem;
+  }
+}
