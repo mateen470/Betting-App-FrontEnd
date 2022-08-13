@@ -265,7 +265,8 @@
     font-size: 10px;
   }
 }
-@media (max-width: 600px), all and (max-width: 959px) and (orientation : landscape) {
+@media (max-width: 600px),
+  all and (max-width: 959px) and (orientation: landscape) {
   .league_Name {
     display: none;
   }
@@ -412,28 +413,37 @@
   }
 }
 
-@media all and (max-width: 959px) and (orientation : landscape){
-  .box1, .box2, .box3{
-    width:30%;
+@media all and (max-width: 959px) and (orientation: landscape) {
+  .box1,
+  .box2,
+  .box3 {
+    width: 30%;
   }
-  .box1 .p1, .box1 .p2, .box2 .p1, .box2 .p2, .box3 .p1, .box3 .p2,.leagueName .leagueNameText{
+  .box1 .p1,
+  .box1 .p2,
+  .box2 .p1,
+  .box2 .p2,
+  .box3 .p1,
+  .box3 .p2,
+  .leagueName .leagueNameText {
     font-size: 1.2rem;
   }
-  .box1 .p1, .box3 .p1{
+  .box1 .p1,
+  .box3 .p1 {
     display: block;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;  
+    overflow: hidden;
   }
-  .text_div p{
+  .text_div p {
     font-size: 1rem;
-    
   }
-  .text_div{
+  .text_div {
     gap: 2rem;
   }
-  .text1,.text2,.text3{
+  .text1,
+  .text2,
+  .text3 {
     width: auto;
   }
-
 }

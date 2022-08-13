@@ -176,12 +176,11 @@
     top: 235px;
   }
 }
-@media (max-width: 37.5rem),
+@media (max-width: 600px),
   all and (max-width: 959px) and (orientation: landscape) {
   .bottomBar {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: r; */
     justify-content: center;
     left: 0%;
     position: fixed;

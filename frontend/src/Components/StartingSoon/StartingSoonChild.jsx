@@ -46,10 +46,8 @@ const StartingSoonChild = ({ startSoon, title }) => {
                 </div>
               </div>
               <div className="draw">
-                <div className="drawBlacBox">
-                  <p className="drawText">DRAW</p>
-                  <p className="drawRating">{data.clubRating1}</p>
-                </div>
+                <p className="drawText">DRAW</p>
+                <p className="drawRating">{data.clubRating1}</p>
               </div>
               <img
                 className="tvShow_StartSoon"

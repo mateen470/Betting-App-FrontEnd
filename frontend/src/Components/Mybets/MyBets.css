@@ -103,9 +103,27 @@ tbody tr:nth-child(even) td {
     margin-left: 4.5rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   .My_Bets_root_div {
-    width: 22rem;
+    width: 43rem;
+    margin-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 684px) {
+  .My_Bets_root_div {
+    width: 41rem;
     margin-left: 0.5rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .My_Bets_root_div {
+    width: 25rem;
+    margin-left: 0.3rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .My_Bets_root_div {
+    width: 23rem;
+    margin-left: 0.2rem;
   }
 }
