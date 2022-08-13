@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   Navigate,
 } from "react-router-dom";
 
@@ -25,6 +25,20 @@ const SectionNavBar = () => {
     background: "rgba(95, 95, 167, 0.37)",
     padding: "0.7rem",
   };
+  let activeStyleMobileView = {
+    fontWeight: "bold",
+    fontSize: "22px",
+  };
+  let inActiveStyleMobileView = {
+    opacity: "0.5",
+  };
+  // FOR MOBILE VIEW SECTIONBAR-STARTS
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
+  useEffect(() => {
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  }, []);
+  // FOR MOBILE VIEW SECTIONBAR-ENDS
   return (
     <div>
       <div className="navbar_main_div">
@@ -90,6 +104,54 @@ const SectionNavBar = () => {
           </div>
         </div>
       </div>
+      {/* MOBILEVIEW SECTIONBAR-STARTS */}
+      <motion.div ref={carousel} className="carousel">
+        <motion.div
+          drag="x"
+          dragConstraints={{ right: width, left: -width }}
+          className="inner-carousel"
+        >
+          <motion.div className="item">
+            <NavLink
+              to="/MyBets"
+              style={({ isActive }) =>
+                isActive ? activeStyleMobileView : inActiveStyleMobileView
+              }
+              className="mobile_view_sectionBar_link"
+            >
+              MY BETS
+            </NavLink>
+            <NavLink
+              to="/"
+              style={({ isActive }) =>
+                isActive ? activeStyleMobileView : inActiveStyleMobileView
+              }
+              className="mobile_view_sectionBar_link"
+            >
+              LOBBY
+            </NavLink>
+            <NavLink
+              to="/LiveEvents"
+              style={({ isActive }) =>
+                isActive ? activeStyleMobileView : inActiveStyleMobileView
+              }
+              className="mobile_view_sectionBar_link"
+            >
+              LIVE EVENTS
+            </NavLink>
+            <NavLink
+              to="/StartingSoon"
+              style={({ isActive }) =>
+                isActive ? activeStyleMobileView : inActiveStyleMobileView
+              }
+              className="mobile_view_sectionBar_link"
+            >
+              STARTING SOON
+            </NavLink>
+          </motion.div>
+        </motion.div>
+      </motion.div>
+      {/* MOBILEVIEW SECTION BAR ENDS */}
       <Routes>
         <Route exact path="/" element={<LobbySection />}></Route>
         <Route path="/MyBets" element={<MyBets />}></Route>
