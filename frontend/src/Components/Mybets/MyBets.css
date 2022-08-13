@@ -115,15 +115,40 @@ tbody tr:nth-child(even) td {
     margin-left: 0.5rem;
   }
 }
+@media only screen and (max-width: 541px) {
+  .My_Bets_root_div {
+    width: 31rem;
+    margin-left: 1.2rem;
+  }
+}
 @media only screen and (max-width: 414px) {
   .My_Bets_root_div {
     width: 25rem;
     margin-left: 0.3rem;
   }
 }
+@media only screen and (max-width: 394px) {
+  .My_Bets_root_div {
+    width: 22rem;
+    margin-left: 1.2rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .My_Bets_root_div {
+    width: 23rem;
+    margin-left: 0.7rem;
+  }
+}
+
 @media only screen and (max-width: 376px) {
   .My_Bets_root_div {
     width: 23rem;
     margin-left: 0.2rem;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .My_Bets_root_div {
+    width: 21rem;
+    margin-left: 0.7rem;
   }
 }
