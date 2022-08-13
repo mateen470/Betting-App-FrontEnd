@@ -8,7 +8,8 @@
   display: none;
 }
 /* RESPONSIVENESS */
-@media (max-width: 37.5rem) {
+@media (max-width: 37.5rem),
+  all and (max-width: 959px) and (orientation: landscape) {
   .Crousal_root_div {
     display: none;
   }

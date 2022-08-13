@@ -106,31 +106,31 @@ const SideBar = () => {
         </div>
       </div>
       <div className="bottomBar">
-        <NavLink to="/" style={{ padding: "20px" }}>
+        <NavLink to="/">
           <img
             src="https://img.icons8.com/windows/32/ffffff/home.png"
             alt="#"
           />
         </NavLink>
-        <NavLink to="#" style={{ padding: "20px" }}>
+        <NavLink to="#">
           <img
             src="https://img.icons8.com/pastel-glyph/32/ffffff/search--v1.png"
             alt="#"
           />
         </NavLink>
-        <NavLink to="#" style={{ padding: "20px" }}>
+        <NavLink to="#">
           <img
             src="https://img.icons8.com/ios/32/ffffff/plus-2-math.png"
             alt="#"
           />
         </NavLink>
-        <NavLink to="#" style={{ padding: "20px" }}>
+        <NavLink to="#">
           <img
             src="https://img.icons8.com/material-outlined/32/ffffff/like--v1.png"
             alt="#"
           />
         </NavLink>
-        <NavLink to="#" style={{ padding: "20px" }}>
+        <NavLink to="#">
           <img src="https://img.icons8.com/small/32/ffffff/user.png" alt="#" />
         </NavLink>
       </div>

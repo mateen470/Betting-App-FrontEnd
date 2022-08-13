@@ -14,11 +14,28 @@ const LiveEventChild = ({ event }) => {
             <p className="size">{key.size}</p>
             <p className="quarterNumber">{key.commence_time}</p>
           </div>
-          <div className="score_detail_main_div">
-            <p className="score_detail_main_div_text1">{key.home_team}</p>
-            <p className="score_detail_main_div_text2">? - ?</p>
-            <p className="score_detail_main_div_text3">{key.away_team}</p>
+          <div className="liveAndEvent">
+            <p className="EventTitle">
+              International youth / Under 19 women championship europe
+            </p>
+            <p className="LiveText">LIVE</p>
           </div>
+          <div className="Half">first Half</div>
+          <div className="TeamNames-Points">
+            <p className="homeTeamName">{key.home_team}</p>
+            <p className="Points">2 - 0</p>
+            <p className="awayTeamName">{key.away_team}</p>
+          </div>
+          <div className="additionAndScores">
+            <p className="increment">12'</p>
+            <p className="Score1">
+              {Math.round(100 / key.bookmakers[0].markets[0].outcomes[0].price)}
+            </p>
+            <p className="Score2">
+              {Math.round(100 / key.bookmakers[0].markets[0].outcomes[1].price)}
+            </p>
+          </div>
+
           <p className="addition">+12</p>
           <div className="match_detail_main">
             <div className="blackBox_main">
@@ -31,7 +48,7 @@ const LiveEventChild = ({ event }) => {
                     )}
                   </p>
                 </div>
-                <div className="teamInfo">
+                <div className="teamInfo_LiveEvents">
                   <div className="clubName_Points_blackBox">
                     <p className="clubName">{key.home_team}</p>
                     <p className="clubRating">
@@ -41,13 +58,9 @@ const LiveEventChild = ({ event }) => {
                   <p className="clubStatus">{"OPEN"}</p>
                 </div>
               </div>
-              <div className="draw_div_liveEvents">
-                <p className="p1_liveEvent">DRAW</p>
-                <p className="p2_liveEvent">
-                  {key.bookmakers[0].markets[0].outcomes.length > 2
-                    ? key.bookmakers[0].markets[0].outcomes[2].price
-                    : "NaN"}
-                </p>
+              <div className="drawLiveEvents">
+                <p className="DrawText">Draw</p>
+                <p className="DrawRating">1.08</p>
               </div>
               <img
                 className="tvShow"

@@ -482,3 +482,30 @@
     margin-right: 1.2rem;
   }
 }
+
+@media all and (max-width: 959px) and (orientation: landscape) {
+  .team1_main_startSoon,
+  .draw,
+  .team2_main_startSoon {
+    width: 30%;
+  }
+  .team1_main_startSoon .clubName_startSoon,
+  .team2_main_startSoon .clubName_startSoon,
+  .team1_main_startSoon .clubRating_startSoon,
+  .team2_main_startSoon .clubRating_startSoon {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .drawText,
+  .drawRating {
+    font-size: 1.2rem;
+  }
+  .teamTitle {
+    margin-bottom: 0.5rem;
+    width: auto;
+    font-size: 0.8rem;
+  }
+  .TeamNames {
+    font-size: 1.2rem;
+  }
+}
