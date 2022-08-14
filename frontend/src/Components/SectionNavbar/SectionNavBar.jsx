@@ -75,7 +75,7 @@ const SectionNavBar = () => {
                 LIVE EVENTS
               </NavLink>
             </li>
-            {/* <li className="navbar_list_elements favourites_link">
+            <li className="navbar_list_elements favourites_link">
               <NavLink
                 style={({ isActive }) =>
                   isActive ? activeStyle : inActiveStyle
@@ -84,7 +84,7 @@ const SectionNavBar = () => {
               >
                 FAVOURITES
               </NavLink>
-            </li> */}
+            </li>
             <li className="navbar_list_elements">
               <NavLink
                 style={({ isActive }) =>

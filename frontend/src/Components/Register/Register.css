@@ -9,6 +9,7 @@
 }
 .login__container {
   border-radius: 14px;
+  font-family: "Poppins";
   display: flex;
   width: 45%;
   height: 80%;

@@ -8,11 +8,6 @@ import myBetsIcon from "./assets/user_group.png";
 import liveEvents from "./assets/live-events.png";
 import calendarIcon from "./assets/calendar.png";
 import sportListrIcon from "./assets/settings.png";
-// import home from "./assets/home.png";
-// import search from "./assets/search.png";
-// import add from "./assets/add.png";
-// import heart from "./assets/heart.png";
-// import userIcon from "./assets/user.png";
 
 import {
   BrowserRouter as Router,
@@ -43,7 +38,7 @@ const SideBar = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container" style={{width:"0%"}}>
       <div style={{ width: open ? "270px" : "65px" }} className="SideBar">
         <img
           src={menuIcon}
