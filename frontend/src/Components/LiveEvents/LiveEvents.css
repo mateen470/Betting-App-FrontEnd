@@ -341,7 +341,7 @@
   display: none;
 }
 
-@media (max-width: 600px),
+@media (max-width: 37.5rem),
   all and (max-width: 959px) and (orientation: landscape) {
   .team1Name_Score,
   .team2Name_Score,
@@ -381,7 +381,10 @@
 
   .liveAndEvent .LiveText {
     margin: 0%;
-    width: 1.875rem;
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 2.5rem;
     height: 1.3125rem;
     font-family: "Poppins";
     font-style: normal;
@@ -394,10 +397,6 @@
     color: #ffffff;
     background: red;
     margin-left: auto;
-    padding: 2px;
-    border-radius: 2px;
-    text-align: center;
-    width: 2.5rem;
   }
 
   .TeamNames-Points {
@@ -413,12 +412,15 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 0.68rem;
+    font-size: 0.8rem;
     line-height: 1rem;
     text-align: center;
     letter-spacing: 0.75px;
     text-transform: uppercase;
     color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .Points {
     width: auto;
@@ -606,13 +608,6 @@
     font-size: 1rem;
     margin: 0%;
   }
-  .liveAndEvent .LiveText {
-    padding: 2px;
-    border-radius: 2px;
-    text-align: center;
-    width: 2.5rem;
-  }
-
   .clubRating,
   .DrawRating {
     font-size: 1rem;
@@ -627,5 +622,42 @@
   }
   .TeamNames-Points p {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 295px) {
+  .clubRating,
+  .DrawRating {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 0%;
+  }
+  .clubName,
+  .DrawText,
+  .EventTitle {
+    text-align: center;
+    width: auto;
+    font-size: 0.6rem;
+    margin: 0%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 4.725rem;
+  }
+  .teamInfo_LiveEvents,
+  .drawLiveEvents,
+  .teamInfo2 {
+    min-width: 5rem;
+    width: auto;
+  }
+  .drawLiveEvents {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .TeamNames-Points p {
+    font-size: 0.6rem;
+  }
+  .Points {
+    width: 30px;
   }
 }

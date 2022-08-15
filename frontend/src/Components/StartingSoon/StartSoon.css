@@ -470,7 +470,9 @@
     color: #584aff;
   }
   .clubRating_startSoon {
-    margin-left: 1.5rem;
+    margin-left: 0%;
+    width: auto;
+    text-align: center;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
@@ -508,5 +510,19 @@
   }
   .TeamNames {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 295px) {
+  .teamInfo,
+  .teamInfo2_startSoon {
+    width: 4.5rem;
+  }
+  .team1_main_startSoon .clubName_startSoon,
+  .team1_main_startSoon .clubRating_startSoon,
+  .team2_main_startSoon .clubName_startSoon,
+  .team2_main_startSoon .clubRating_startSoon,
+  .draw p {
+    font-size: 0.725rem;
   }
 }

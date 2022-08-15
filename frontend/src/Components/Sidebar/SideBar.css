@@ -6,7 +6,7 @@
 .container {
   text-decoration: none;
   position: fixed;
-  margin-top: 0.6rem;
+  width: 0%;
   z-index: 2;
   height: 100%;
 }
@@ -18,14 +18,14 @@
   justify-content: center;
   align-items: center;
   width: 295px;
-  height: 97%;
+  height: 600px;
   border-radius: 1rem;
-  margin-bottom: 1rem;
   left: 0;
+  height: 100%;
 }
 .burgerIcon {
   display: inline-block;
-  margin-top: -32rem;
+  margin-top: -65rem;
   height: 2rem;
   width: 2rem;
   position: absolute;
@@ -39,7 +39,7 @@
   position: absolute;
   background: linear-gradient(180deg, #7e73ff 0%, #5b4dff 100%);
   border-radius: 50%;
-  margin-top: -23.5rem;
+  margin-top: -55rem;
   z-index: 1;
 }
 .status_light {
@@ -47,7 +47,7 @@
   width: 0.9rem;
   height: 0.9rem;
   display: inline-block;
-  margin-top: -22rem;
+  margin-top: -53.5rem;
   margin-left: 1rem;
   z-index: 2;
 }
@@ -139,12 +139,12 @@
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1024px) {
   .SideBar {
-    height: 97%;
+    height: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
   .SideBar {
-    height: 97%;
+    height: 100%;
   }
   .burgerIcon {
     margin-top: -40rem;
@@ -178,7 +178,7 @@
     top: 235px;
   }
 }
-@media (max-width: 600px),
+@media (max-width: 37.5rem),
   all and (max-width: 959px) and (orientation: landscape) {
   .bottomBar {
     display: flex;
@@ -203,6 +203,5 @@
 
   .SideBar {
     display: none;
-    height: 97%;
   }
 }

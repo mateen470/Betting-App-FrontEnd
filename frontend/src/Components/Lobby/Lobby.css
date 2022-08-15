@@ -4,7 +4,7 @@
   border-bottom-right-radius: 1rem;
   margin-bottom: 1rem;
   width: 75rem;
-  margin-left: 4.5rem;
+  margin-left: auto;
   margin-right: auto;
 }
 .lobbyBar_main_div {
@@ -446,5 +446,31 @@
   .text2,
   .text3 {
     width: auto;
+  }
+}
+
+@media (max-width: 295px) {
+  .box1,
+  .box2,
+  .box3 {
+    min-width: 4rem;
+  }
+  .points {
+    gap: 2rem;
+  }
+  .box1 .p2,
+  .box2 .p2,
+  .box3 .p2 {
+    font-size: 0.725rem;
+  }
+  .box1 .p1,
+  .box2 .p1,
+  .box3 .p1 {
+    font-size: 0.625rem;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 3rem;
   }
 }
