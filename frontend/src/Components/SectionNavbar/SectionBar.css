@@ -128,7 +128,7 @@
     margin-left: 3.5rem;
   }
 }
-@media only screen and (max-width: 600px),
+@media only screen and (max-width: 604px),
   all and (max-width: 959px) and (orientation: landscape) {
   .navbar_main_div {
     display: none;

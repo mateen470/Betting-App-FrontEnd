@@ -31,7 +31,7 @@
   padding-right: 0.2rem;
 }
 /* RESPONSIVENESS */
-@media (max-width: 600px),
+@media (max-width: 604px),
   all and (max-width: 959px) and (orientation: landscape) {
   .Crousal_root_div {
     display: none;

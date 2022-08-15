@@ -361,7 +361,7 @@
   display: none;
 }
 
-@media (max-width: 600px),
+@media (max-width: 604px),
   all and (max-width: 959px) and (orientation: landscape) {
   .team1Name_Score,
   .team2Name_Score,
@@ -371,6 +371,7 @@
   .size,
   .divider,
   .liveEventChild_main .liveBox,
+  .liveEventTime,
   .addition {
     display: none;
   }
@@ -485,7 +486,7 @@
     mix-blend-mode: normal;
     border-radius: 1.1875rem;
     padding: 0.5rem;
-    margin: auto;
+    margin: auto 0.2rem;
     width: auto;
     height: 4.625rem;
     width: 6.5625rem;

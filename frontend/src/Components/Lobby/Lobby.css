@@ -278,7 +278,7 @@
     font-size: 10px;
   }
 }
-@media (max-width: 600px),
+@media (max-width: 604px),
   all and (max-width: 959px) and (orientation: landscape) {
   .LobbyBarContainer {
     margin-left: auto;
