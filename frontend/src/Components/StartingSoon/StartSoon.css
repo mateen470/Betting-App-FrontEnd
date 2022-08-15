@@ -74,7 +74,7 @@
 .addition_StartSoon {
   position: absolute;
   margin-top: 5rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -225,7 +225,7 @@
     margin-left: 6.3rem;
   }
   .addition_StartSoon {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   .teamInfo,
   .teamInfo2_startSoon,
