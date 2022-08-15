@@ -11,6 +11,8 @@ const LiveEventChild = ({ event }) => {
                 <p className="liveText">LIVE</p>
               </div>
             </div>
+          </div>
+          <div className="liveEventTime">
             <p className="size">{key.size}</p>
             <p className="quarterNumber">{key.commence_time}</p>
           </div>

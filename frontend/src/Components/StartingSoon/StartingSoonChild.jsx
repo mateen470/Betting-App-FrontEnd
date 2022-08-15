@@ -54,7 +54,7 @@ const StartingSoonChild = ({ startSoon, title }) => {
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"
                 alt="tvShowLogo"
               />
-              <hr className="divider" />
+              <hr className="divider_startSoon" />
               <img
                 className="increase_StartSoon"
                 src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bullish.png"

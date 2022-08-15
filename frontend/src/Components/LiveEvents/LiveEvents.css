@@ -1,10 +1,11 @@
 .liveEvents {
   background-color: #000000;
-  display: inline-block;
   box-sizing: border-box;
   border-radius: 20px;
   height: 100%;
-  margin-left: 4rem;
+  width: auto;
+  margin-left: 4.5rem;
+  margin-right: 1rem;
 }
 .liveEventHeading_main {
   display: inline-block;
@@ -58,7 +59,7 @@
   margin-top: 0.2rem;
   border-radius: 1rem;
   width: auto;
-  height: 12.5rem;
+  height: auto;
 }
 .liveText {
   font-family: "Poppins";
@@ -68,26 +69,24 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+.liveEventTime {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
+}
 .size {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
   margin-left: 1rem;
   text-transform: uppercase;
   color: #ffffff;
 }
 .quarterNumber {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
   text-transform: uppercase;
   color: #404040;
 }
 
 .addition {
-  display: inline-block;
   position: absolute;
   margin-top: 5rem;
   margin-left: 1rem;
@@ -99,23 +98,23 @@
   color: #5e5e5e;
 }
 .match_detail_main {
-  display: inline-block;
-  margin-left: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .blackBox_main {
   display: flex;
 }
 .team1_main {
   display: inline-block;
-  margin: 0 2.3rem;
-  margin-top: -5rem;
+  margin-bottom: 4rem;
   width: 21.125rem;
+  width: auto;
   height: 6.063rem;
 }
 .team2_main {
   display: inline-block;
   margin: 0 2.3rem;
-  margin-top: -5rem;
   width: 21.125rem;
   height: 6.063rem;
   padding-right: 2rem;
@@ -133,7 +132,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.8rem;
   margin-left: 3rem;
   text-transform: uppercase;
   color: #ffffff;
@@ -143,7 +142,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.8rem;
   margin-right: 5rem;
   text-transform: uppercase;
   color: #e6852c;
@@ -176,17 +175,15 @@
   display: none;
 }
 .tvShow {
-  display: inline-block;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
+  margin-left: 2rem;
 }
-
+.tvShow,
 .increase {
   display: inline-block;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 5rem;
+  width: 2rem;
+  height: 2rem;
 }
-
 .clubName {
   font-family: "Poppins";
   font-style: normal;
@@ -214,28 +211,12 @@
 }
 
 .divider {
-  width: 6.25rem;
-  height: 0px;
-  margin-left: -2rem;
-  margin-right: -2rem;
   display: inline-block;
-  border: 2px solid #151824;
+  margin-top: 5rem;
+  width: 7rem;
+  height: 0px;
+  border: 2px solid black;
   transform: rotate(90deg);
-}
-.StartSoonTime_box {
-  background-color: #5e5e5e;
-  width: 13.75rem;
-  height: 1.375rem;
-  border-radius: 0.1rem;
-}
-
-.startsoonTime {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.startSoonTime_para {
-  font-family: "Poppins";
 }
 
 /* RESPONSIVENESS */
@@ -247,25 +228,27 @@
     display: inline-block;
   }
   .liveEvents {
-    margin-left: 4rem;
+    margin-left: 4.5rem;
   }
   .line {
-    width: 59rem;
+    width: auto;
   }
   .liveEventChild_main {
-    width: 59rem;
+    width: auto;
   }
   .match_detail_main {
     margin-left: 6.3rem;
   }
   .quarterNumber {
     display: inline-block;
-    margin-top: 2.5rem;
     font-size: smaller;
-    margin-left: -7.8rem;
   }
   .addition {
     margin-left: 2rem;
+  }
+  .teamInfo_LiveEvents,
+  .teamInfo2 {
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (max-width: 912px) {
@@ -278,6 +261,7 @@
   }
   .liveEventChild_main {
     width: auto;
+    padding-bottom: 3rem;
   }
   .match_detail_main {
     margin-left: 6.3rem;
@@ -298,9 +282,7 @@
   }
   .quarterNumber {
     display: inline-block;
-    margin-top: 2.5rem;
     font-size: 8px;
-    margin-left: -7.8rem;
   }
   .addition {
     margin-left: 2rem;
@@ -327,9 +309,7 @@
   }
   .quarterNumber {
     display: inline-block;
-    margin-top: 2.5rem;
     font-size: smaller;
-    margin-left: -8rem;
   }
   .addition {
     margin-left: 1rem;
