@@ -43,11 +43,14 @@ const SideBar = () => {
         <img
           src={menuIcon}
           alt="#"
-          style={{ marginLeft: open ? "180px" : "0px" }}
+          style={{
+            marginLeft: open ? "220px" : "1rem",
+            marginTop: open ? "0" : "auto",
+          }}
           className="burgerIcon"
           onClick={toggle}
         />
-        <div style={{ margin: "1rem" }}>
+        <div style={{ margin: "1rem", marginTop: "2rem" }}>
           <div
             className="alternate_profile_picture_small_sideBar"
             style={{ display: open ? "none" : "block" }}
@@ -70,7 +73,7 @@ const SideBar = () => {
         </div>
         <div
           className="functions_of_sidebar"
-          style={{ marginTop: open ? "6rem" : "2rem" }}
+          style={{ marginTop: open ? "6rem" : "0.5rem" }}
         >
           {menuItems.map((item, index) => (
             <div className="side_bar_elments_list" key={index}>
