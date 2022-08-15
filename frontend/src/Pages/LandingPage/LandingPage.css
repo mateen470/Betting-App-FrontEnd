@@ -31,7 +31,7 @@
   padding-right: 0.2rem;
 }
 /* RESPONSIVENESS */
-@media (max-width: 37.5rem),
+@media (max-width: 600px),
   all and (max-width: 959px) and (orientation: landscape) {
   .Crousal_root_div {
     display: none;
@@ -78,5 +78,11 @@
     font-size: 1rem;
     line-height: 1.5rem;
     color: #dadada;
+  }
+  .rightPullOutMenu_root {
+    display: none;
+  }
+  .btn_rightPullOutMenu {
+    display: none;
   }
 }

@@ -3,9 +3,12 @@
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   margin-bottom: 1rem;
-  width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  margin-left: 4.5rem;
+  margin-right: 1rem;
+}
+.LobbyBarContainer {
+  margin-left: 4rem;
 }
 .lobbyBar_main_div {
   padding-left: 1rem;
@@ -36,12 +39,13 @@
   margin-right: 1.2rem;
 }
 .main {
-  width: 73.75rem;
+  width: auto;
   height: 4.375rem;
   background: black;
   margin-top: 1rem;
   margin-left: -0.5rem;
   border-radius: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
 }
 .match_status {
@@ -207,25 +211,32 @@
 
 @media only screen and (max-width: 1024px) {
   .main_lobbyBar {
-    width: 59rem;
+    width: auto;
   }
   .hr_lobbyBar {
-    width: 58rem;
+    width: auto;
+  }
+  .lobbyBar_div {
+    width: 100%;
   }
   .main {
-    width: 58rem;
+    width: auto;
   }
   .box_div {
-    margin-left: 2rem;
+    justify-content: flex-start;
+    margin-left: 0%;
   }
   .text_div {
-    margin-left: 32.5rem;
+    justify-content: flex-end;
+    margin-left: 0%;
   }
+
   .downArrow_lobby {
     color: grey;
     font-size: 35px;
     margin-top: -0.8rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -268,6 +279,9 @@
 }
 @media (max-width: 600px),
   all and (max-width: 959px) and (orientation: landscape) {
+  .LobbyBarContainer {
+    margin-left: auto;
+  }
   .league_Name {
     display: none;
   }
@@ -323,6 +337,7 @@
   .main_lobbyBar {
     width: 0%;
     margin-left: 1.2rem;
+    margin-right: 1rem;
   }
   .text_div {
     margin-left: 0%;
@@ -448,7 +463,6 @@
     width: auto;
   }
 }
-
 @media (max-width: 295px) {
   .box1,
   .box2,

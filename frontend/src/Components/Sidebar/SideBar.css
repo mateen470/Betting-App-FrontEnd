@@ -6,29 +6,24 @@
 .container {
   text-decoration: none;
   position: fixed;
-  width: 0%;
+  margin-top: 0.6rem;
   z-index: 2;
   height: 100%;
 }
 .SideBar {
+  padding-top: 5rem;
   background-color: #11131c;
-  display: flex;
   position: absolute;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 295px;
-  height: 600px;
+  height: 97%;
   border-radius: 1rem;
+  margin-bottom: 1rem;
   left: 0;
-  height: 100%;
 }
 .burgerIcon {
   display: inline-block;
-  margin-top: -65rem;
   height: 2rem;
   width: 2rem;
-  position: absolute;
 }
 .burgerIcon:hover {
   cursor: pointer;
@@ -36,20 +31,16 @@
 .alternate_profile_picture_small_sideBar {
   height: 2rem;
   width: 2rem;
-  position: absolute;
   background: linear-gradient(180deg, #7e73ff 0%, #5b4dff 100%);
   border-radius: 50%;
-  margin-top: -55rem;
-  z-index: 1;
 }
 .status_light {
   border-radius: 50%;
   width: 0.9rem;
   height: 0.9rem;
   display: inline-block;
-  margin-top: -53.5rem;
   margin-left: 1rem;
-  z-index: 2;
+  margin-top: -0.4rem;
 }
 .user_profile_picture {
   position: absolute;
@@ -87,11 +78,10 @@
   color: rgba(255, 255, 255, 0.4);
 }
 .functions_of_sidebar {
-  position: absolute;
+  margin-top: 2rem;
   width: 232px;
   height: 375px;
   left: 0px;
-  top: 230px;
 }
 .NavLink_SideBar {
   text-decoration: none;
@@ -139,12 +129,12 @@
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1024px) {
   .SideBar {
-    height: 100%;
+    height: 97%;
   }
 }
 @media only screen and (max-width: 768px) {
   .SideBar {
-    height: 100%;
+    height: 97%;
   }
   .burgerIcon {
     margin-top: -40rem;
@@ -178,7 +168,7 @@
     top: 235px;
   }
 }
-@media (max-width: 37.5rem),
+@media (max-width: 600px),
   all and (max-width: 959px) and (orientation: landscape) {
   .bottomBar {
     display: flex;
@@ -203,5 +193,6 @@
 
   .SideBar {
     display: none;
+    height: 97%;
   }
 }

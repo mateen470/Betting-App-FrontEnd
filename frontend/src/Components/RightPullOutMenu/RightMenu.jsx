@@ -59,10 +59,10 @@ const RightMenu = () => {
       {betData.map((bets) => (
         <div className="betComponent_main">
           <div className="matchDetailsForBet">
-            <div className="liveBox_teamsName">
               <div className="rightPanel_liveBox_main">
                 <span className="Live_Span">LIVE</span>
               </div>
+            <div className="TeamsName">
               <div className="rightPanel_teamsName_main">
                 <span className="team1_span">
                   {bets.team1} - {bets.team2}

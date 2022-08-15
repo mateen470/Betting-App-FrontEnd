@@ -8,11 +8,6 @@ import myBetsIcon from "./assets/user_group.png";
 import liveEvents from "./assets/live-events.png";
 import calendarIcon from "./assets/calendar.png";
 import sportListrIcon from "./assets/settings.png";
-// import home from "./assets/home.png";
-// import search from "./assets/search.png";
-// import add from "./assets/add.png";
-// import heart from "./assets/heart.png";
-// import userIcon from "./assets/user.png";
 
 import {
   BrowserRouter as Router,
@@ -52,17 +47,19 @@ const SideBar = () => {
           className="burgerIcon"
           onClick={toggle}
         />
-        <div
-          className="alternate_profile_picture_small_sideBar"
-          style={{ display: open ? "none" : "block" }}
-        ></div>
-        <div
-          className="status_light"
-          style={{
-            display: open ? "none" : "block",
-            background: status === "offline" ? "red" : "green",
-          }}
-        ></div>
+        <div style={{ margin: "1rem" }}>
+          <div
+            className="alternate_profile_picture_small_sideBar"
+            style={{ display: open ? "none" : "block" }}
+          ></div>
+          <div
+            className="status_light"
+            style={{
+              display: open ? "none" : "block",
+              background: status === "offline" ? "red" : "green",
+            }}
+          ></div>
+        </div>
         <div
           style={{ display: open ? "block" : "none" }}
           className="user_profile"
@@ -73,7 +70,7 @@ const SideBar = () => {
         </div>
         <div
           className="functions_of_sidebar"
-          style={{ marginTop: open ? "0px" : "-40px" }}
+          style={{ marginTop: open ? "6rem" : "2rem" }}
         >
           {menuItems.map((item, index) => (
             <div className="side_bar_elments_list" key={index}>

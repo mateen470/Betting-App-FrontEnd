@@ -128,28 +128,29 @@
   background-color: #212134;
   border-radius: 5px;
 }
-.liveBox_teamsName {
+.TeamsName {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0.7rem;
+  margin-top: 0.2rem;
   margin-bottom: 1rem;
 }
 .rightPanel_liveBox_main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  margin-left: -20rem;
   background-color: #ee0202;
   padding: 0 0.5rem;
   border-radius: 2px;
 }
 .Live_Span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  text-align: center;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   color: #ffffff;

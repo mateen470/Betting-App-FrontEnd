@@ -260,13 +260,51 @@
     display: inline-block;
     margin-top: 2.5rem;
     font-size: smaller;
-    margin-left: -8rem;
+    margin-left: -7.8rem;
   }
   .addition {
     margin-left: 2rem;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 912px) {
+  .liveEvents {
+    margin-left: 5rem;
+    margin-right: 0.3rem;
+  }
+  .line {
+    width: auto;
+  }
+  .liveEventChild_main {
+    width: auto;
+  }
+  .match_detail_main {
+    margin-left: 6.3rem;
+  }
+  .team1_main {
+    width: 14rem;
+    height: 3rem;
+  }
+  .team2_main {
+    width: 14rem;
+    height: 3rem;
+    padding-right: 1rem;
+  }
+  .team1Name,
+  .team2Name {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .quarterNumber {
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 8px;
+    margin-left: -7.8rem;
+  }
+  .addition {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 820px) {
   .liveEventHeading_main {
     display: inline-block;
   }
@@ -341,7 +379,7 @@
   display: none;
 }
 
-@media (max-width: 37.5rem),
+@media (max-width: 600px),
   all and (max-width: 959px) and (orientation: landscape) {
   .team1Name_Score,
   .team2Name_Score,
@@ -382,7 +420,7 @@
   .liveAndEvent .LiveText {
     margin: 0%;
     padding: 2px;
-    border-radius: 10px;
+    border-radius: 3px;
     text-align: center;
     width: 2.5rem;
     height: 1.3125rem;
