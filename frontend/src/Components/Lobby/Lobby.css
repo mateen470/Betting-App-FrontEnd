@@ -8,6 +8,7 @@
   margin-right: 1rem;
 }
 .LobbyBarContainer {
+  width: max-content;
   margin-left: 4rem;
 }
 .lobbyBar_main_div {
@@ -33,7 +34,7 @@
 }
 .hr_lobbyBar {
   color: white;
-  width: 73.125rem;
+  width: auto;
   margin-left: 0.7rem;
   margin-top: 0.5rem;
   margin-right: 1.2rem;

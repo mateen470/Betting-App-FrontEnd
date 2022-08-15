@@ -35,7 +35,7 @@
 }
 
 .line {
-  width: 71.875rem;
+  width: auto;
 }
 .live_size_matchType_main_div {
   display: flex;
@@ -55,10 +55,9 @@
 }
 .liveEventChild_main {
   background-color: rgba(17, 19, 28, 0.8);
-  display: block;
   margin-top: 0.2rem;
   border-radius: 1rem;
-  width: 75rem;
+  width: auto;
   height: 12.5rem;
 }
 .liveText {
@@ -91,7 +90,7 @@
   display: inline-block;
   position: absolute;
   margin-top: 5rem;
-  margin-left: -2rem;
+  margin-left: 1rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -108,15 +107,18 @@
 }
 .team1_main {
   display: inline-block;
+  margin: 0 2.3rem;
   margin-top: -5rem;
   width: 21.125rem;
   height: 6.063rem;
 }
 .team2_main {
   display: inline-block;
+  margin: 0 2.3rem;
   margin-top: -5rem;
   width: 21.125rem;
   height: 6.063rem;
+  padding-right: 2rem;
 }
 .team1Name_Score {
   display: flex;

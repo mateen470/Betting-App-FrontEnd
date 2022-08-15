@@ -1,13 +1,13 @@
 .navbar_main_div {
-  display: inline-block;
   margin-top: 0.5rem;
   margin-left: 3.5rem;
   background: rgba(17, 19, 28, 0.8);
+  margin-left: 4.5rem;
+  margin-right: 1rem;
 }
 .navbar_elements_main {
   position: relative;
   width: auto;
-  margin-left: 4.65rem;
   height: 4.75rem;
 }
 .carousel {

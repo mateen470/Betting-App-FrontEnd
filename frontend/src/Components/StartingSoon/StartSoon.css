@@ -35,7 +35,7 @@
 }
 
 .line_startSoon {
-  width: 71.875rem;
+  width: auto;
 }
 
 .startSoonBox {
@@ -49,7 +49,7 @@
   background-color: rgba(17, 19, 28, 0.8);
   display: block;
   border-radius: 1rem;
-  width: 75rem;
+  width: auto;
   height: 12.5rem;
 }
 .draw {
@@ -92,7 +92,7 @@
   display: inline-block;
   position: absolute;
   margin-top: 5rem;
-  margin-left: -8rem;
+  margin-left: 1rem;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -108,12 +108,14 @@
 }
 .team1_main_startSoon {
   display: inline-block;
+  margin: 0 4.5rem;
   margin-top: -5rem;
   width: 21.125rem;
   height: 6.063rem;
 }
 .team2_main_startSoon {
   display: inline-block;
+  margin: 0 4.5rem;
   margin-top: -5rem;
   width: 21.125rem;
   height: 6.063rem;
